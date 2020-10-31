@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cajero Automatico</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <p>
+        <img src="cajero.gif" />
+    </p>
+
+    <p>
+        <input type="number" id="dinero" style="width: 5em;" />
+        <input type="button" value="Extraer" id="extraer" />
+        <input type="number" id="deposito" style="width: 5em;" />
+        <input type="number" id="cantidad" style="width: 3em;" />
+        <input type="button" value="Depositar" id="depositar" />
+    </p>
+    <p id="res"></p>
+    <script src="cajero.js"></script>
+</body>
+
+</html>
